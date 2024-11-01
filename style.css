@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+    margin: 15px;
+}
+
+.one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.one__name {
+    font-size: 50px;
+}
+
+.one__role {
+    font-size: 30px;
+}
+
+.one__contact {
+    background-color: #669a93;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.two,
+.five {
+    margin: 10px;
+}
+
+.two__title,
+.three__title,
+.four__title,
+.five__title {
+    margin: 5px;
+}
+
+.three li,
+.four li {
+    list-style: none;
+}
+
+.four__h2 {
+    padding: 10px;
+}
+
+.five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.five__title a {
+    text-decoration: none;
+    color: #669a93;
+}
+
+.five__desc {
+    margin: 5px;
+}
+
+.three {
+    background-color: #D17922;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+    height: 185px;
+}
+
+.four {
+    background-color: #669a93;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contact-form{margin: 20px;}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{margin: 10px;}
+.contact-form__input{padding: 10px;
+border: none;
+border-bottom: 1px solid black;}
+.contact-form__textarea{padding: 20px;
+border: none;
+border: 1px solid black;}
+.contact-form__submit{padding: 10px;
+background-color: #669a93;
+color: black;
+border: none;
+}
